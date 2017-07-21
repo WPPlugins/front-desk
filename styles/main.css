@@ -1,0 +1,125 @@
+.notice {
+    border: solid 1px #aaa;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+    padding: 1em 1.5em;
+}
+.notice-success {
+    background-color: #fafffa;
+    border-color: #080;
+    color: #080;
+}
+.notice-error {
+    background-color: #fffafa;
+    border-color: #800;
+    color: #800;
+}
+.frd-theme-1 .frd-form-field,
+.frd-theme-2 .frd-form-field,
+.frd-theme-3 .frd-form-field {
+    display: table;
+    width: 100%;
+}
+.frd-theme-1 .frd-form-field .frd-form-control input[type=color],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=date],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=datetime-local],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=email],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=month],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=number],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=password],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=range],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=search],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=tel],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=text],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=time],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=url],
+.frd-theme-1 .frd-form-field .frd-form-control input[type=week],
+.frd-theme-1 .frd-form-field .frd-form-control select,
+.frd-theme-1 .frd-form-field .frd-form-control textarea,
+.frd-theme-2 .frd-form-field .frd-form-control input[type=color],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=date],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=datetime-local],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=email],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=month],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=number],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=password],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=range],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=search],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=tel],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=text],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=time],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=url],
+.frd-theme-2 .frd-form-field .frd-form-control input[type=week],
+.frd-theme-2 .frd-form-field .frd-form-control select,
+.frd-theme-2 .frd-form-field .frd-form-control textarea,
+.frd-theme-3 .frd-form-field .frd-form-control input[type=color],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=date],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=datetime-local],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=email],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=month],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=number],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=password],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=range],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=search],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=tel],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=text],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=time],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=url],
+.frd-theme-3 .frd-form-field .frd-form-control input[type=week],
+.frd-theme-3 .frd-form-field .frd-form-control select,
+.frd-theme-3 .frd-form-field .frd-form-control textarea {
+    box-sizing: border-box;
+    padding: .75em 1em;
+    width: 100%;
+}
+
+.frd-theme-1 .frd-form-field .frd-form-label {
+    box-sizing: border-box;
+    display: table-cell;
+    padding-right: 1em;
+    width: 38.1966011%;
+}
+.frd-theme-1 .frd-form-field .frd-form-control {
+    box-sizing: border-box;
+    display: table-cell;
+}
+.frd-theme-1 .frd-form-field .frd-form-control .frd-form-control-info {
+    display: block;
+    margin-top: .5em;
+}
+.frd-theme-1 .frd-form-submit {
+    box-sizing: border-box;
+    display: block;
+    padding-left: 38.1966011%;
+    width: 100%;
+}
+.frd-theme-2 .frd-form-field .frd-form-label {
+    display: block;
+}
+.frd-theme-2 .frd-form-field .frd-form-control {
+    display: block;
+}
+.frd-theme-2 .frd-form-field .frd-form-control .frd-form-control-info {
+    display: block;
+    margin-top: .5em;
+}
+.frd-theme-2 .frd-form-submit {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+.frd-theme-3 .frd-form-field .frd-form-label {
+    display: none;
+}
+.frd-theme-3 .frd-form-field .frd-form-control {
+    display: block;
+}
+.frd-theme-3 .frd-form-field .frd-form-control .frd-form-control-info {
+    display: block;
+    margin-top: .5em;
+}
+.frd-theme-3 .frd-form-submit {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
